@@ -1,0 +1,41 @@
+# Core Dependencies
+requests>=2.31.0
+python-dotenv>=1.0.0
+
+# Web Scraping
+beautifulsoup4>=4.12.0
+selenium>=4.15.0
+undetected-chromedriver>=3.5.4
+lxml>=4.9.0
+
+# Data Processing
+pandas>=2.0.0
+openpyxl>=3.1.0
+
+# Email
+email-validator>=2.1.0
+# python-email-hunter>=1.0.0
+
+# Communication
+twilio>=8.10.0
+
+# Database
+# python-email-hunter>=1.0.0
+# sqlite3  # Built-in with Python
+
+# Scheduling
+APScheduler>=3.10.4
+
+# API Framework (optional, for building dashboard)
+fastapi>=0.104.0
+uvicorn>=0.24.0
+
+# Utilities
+tqdm>=4.66.0
+colorama>=0.4.6
+
+# Optional: For email sending
+# smtplib  # Built-in with Python
+
+# Optional: For better logging
+loguru>=0.7.2
